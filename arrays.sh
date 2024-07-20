@@ -1,4 +1,4 @@
 #!/bin/bash
 
-fruits=(apple,banana,carrot)
+fruits=(apple banana carrot)
 echo "first fruit is : $fruits[0]"
