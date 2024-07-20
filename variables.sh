@@ -1,3 +1,4 @@
+#!/bin/bash
 PERSON1 = siddhu
 PERSON2 = sai
 
