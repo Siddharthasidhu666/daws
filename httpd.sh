@@ -13,5 +13,5 @@ if [ $? -ne 0 ]; then
     echo "failed to install httpd"
     exit 1
 else 
-    echo "success"
+    echo " install success"
 fi
