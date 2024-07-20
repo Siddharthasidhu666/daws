@@ -7,7 +7,7 @@ else
    echo "this is root user"
 fi
 
-yum install http -y
+yum install httpd -y
 
 if [ $? -ne 0 ]; then
     echo "failed to install httpd"
@@ -22,5 +22,5 @@ if [ $? -ne 0 ]; then
     echo "failed to install git"
     exit 1
 else 
-    echo " install success"
+    echo " install success git"
 fi
