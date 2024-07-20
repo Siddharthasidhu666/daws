@@ -1,3 +1,3 @@
 #!/bin/bash
-hi=$date
+hi=$(date)
 echo "$hi"
