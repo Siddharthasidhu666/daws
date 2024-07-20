@@ -7,20 +7,20 @@ else
    echo "this is root user"
 fi
 
-yum install httpd -y
+VALIDATE(){
 
-if [ $? -ne 0 ]; then
+if [ $1 -ne 0 ]; then
     echo "failed to install httpd"
     exit 1
 else 
     echo " install success"
 fi
+}
+
+
+yum install httpd -y
+VALIDATE $?
 
 yum install git -y
+VALIDATE $?
 
-if [ $? -ne 0 ]; then
-    echo "failed to install git"
-    exit 1
-else 
-    echo " install success git"
-fi
