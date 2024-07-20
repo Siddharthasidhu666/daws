@@ -1,6 +1,6 @@
 #!/bin/bash
-PERSON1 = siddhu
-PERSON2 = sai
+PERSON1=siddhu
+PERSON2=sai
 
 echo "$PERSON1 : hi $PERSON2"
 echo "$PERSON2 : hello $PERSON1"
