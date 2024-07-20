@@ -1,7 +1,7 @@
-person1 = siddhu
-person2 = sai
+PERSON1 = siddhu
+PERSON2 = sai
 
-echo "$person1 : hi $person2"
-echo "$person2 : hello $person1"
-echo "$person1 : what are you doing $person2"
-echo "$person2 : Nothing $person1"
+echo "$PERSON1 : hi $PERSON2"
+echo "$PERSON2 : hello $PERSON1"
+echo "$PERSON1 : what are you doing $PERSON2"
+echo "$person2 : Nothing $PERSON1"
